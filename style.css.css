@@ -1,0 +1,186 @@
+p {
+    line-height: 1.5em;
+    margin-top: 25px;
+}
+body {;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+header {
+    border-bottom: 2px solid #cccccc;
+    height: 90px;
+}
+header, .content {
+    background-color: #ffffff;
+}
+.name {
+    
+    background-color: #4aaaa5;
+    
+    color: white;
+    box-sizing: content-box;
+    width: 201px;
+    padding: 15px;
+    margin-left: 205px;
+}
+#page1 {
+    float: left;
+    padding: 3px;
+    
+    display: inline-block;
+}
+#page2 {
+    border-left: 1px solid #4aaaa5;
+    padding: 3px;
+    
+    display: inline-block;
+}
+#page3 {
+    border-left: 1px solid #4aaaa5;
+    padding: 3px;
+    
+    display: inline-block;
+}
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 960px;
+    margin: auto;
+    position: relative;
+    text-align: center;
+}
+.logo {
+    font-size: 30px;
+    padding-top: 5px;
+    font-weight: bold;
+    
+}
+h1 {
+    position: absolute;
+    left: 368px;
+    top: 97px;
+    background-color: #4aaaa5;
+    color: white;
+    height: 39px;
+    padding: 10px;
+}
+h2 {
+    border-bottom: 1px solid #4aaaa5;
+    color: #4aaaa5;
+    margin-bottom: 28px;
+    padding-bottom: 18px;
+    font-size: 28px;
+    font-weight: bold;
+}
+h5{
+    color: white;
+    margin-bottom: 8px;
+}
+h3 {
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px;
+    text-align: center;
+    width: 110px;
+}
+h1, h2, h3, h5,.logo {
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+nav {
+    position: absolute;
+    right: 201px;
+    top: 0;
+    height: 90px;
+    padding: 35px 0px 35px 35px;
+}
+.content {
+    border: 1px solid #dddddd;
+    margin-top: 9px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    padding: 24px;
+    width: 500px;
+    height: 594px;
+    margin-left: 350px;
+}
+img {
+    float: left;
+    padding: 15px;
+    
+}
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%
+    height: 60px;
+    background-color: #666666;
+    border-top: 5px solid #4aaaa5;
+    padding-top: 24px;
+    text-align: center;
+    width: 100%;
+    float: left;
+    clear: both;
+    
+}
+form {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 19px;
+    border-color: #cccccc;
+    border-style: solid;
+    
+}
+input[type=email], input[type=text], textarea {
+    border: 1px solid #cccccc;
+    margin: 6px 0px 16px 0px;
+    padding: 10px;
+    width: 100%;
+}
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.container {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.row {
+    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.portfolio-card {
+    position: relative;
+    float: left;
+    margin-right: 14px;
+    margin-bottom: -45px;
+    
+    margin-top: 24px;
+}
+.card {
+    height: 130px;
+    width: 130px;
+}
